@@ -31,7 +31,7 @@ ShowVersion="$ScriptName $Version"
 
 # Log File
 
-logFile="/Library/GMLogs/secure_token_reset.log"
+logFile="/Library/Logs/secure_token_reset.log"
 exec 1>>"$logFile"
 exec 2>&1
 
