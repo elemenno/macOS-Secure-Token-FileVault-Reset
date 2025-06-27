@@ -30,7 +30,7 @@ This tool is designed for environments where:
 3. The script:
    - Disables and re-enables Secure Token for the selected user
    - Checks if the user is a FileVault unlock user
-   - If not, adds them using 'fdesetup add'
+   - If not, adds them using `fdesetup add`
 4. The script logs results and shows a final summary popup
 
 ---
@@ -47,10 +47,10 @@ This tool is designed for environments where:
 ## Important Notes
 
 - The script runs in the context of **root** via Jamf
-- It uses **AppleScript dialogs** ('osascript') for GUI prompts
+- It uses **AppleScript dialogs** (`osascript`) for GUI prompts
 - All inputs are sanitized and hidden where appropriate
 - If credentials lack Secure Token, the user is prompted to verify and try again
-- A detailed log is stored at: '/Library/Logs/secure_token_reset.log'
+- A detailed log is stored at: `/Library/Logs/secure_token_reset.log`
 
 ---
 
@@ -65,5 +65,5 @@ This tool is designed for environments where:
 ## Log Output
 
 All output, including token status, command results, and errors, are logged to:
-'Library/Logs/secure_token_reset.log'
+`/Library/Logs/secure_token_reset.log`
 
